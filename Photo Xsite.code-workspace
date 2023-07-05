@@ -4,5 +4,8 @@
 			"path": "../Photo Xsite"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Photo Xsite",
+		"livePreview.defaultPreviewPath": "/Users/xavierpan/Desktop/Photo Xsite/d90.html"
+	}
 }
