@@ -13,6 +13,24 @@
   <link rel="stylesheet" href="Photos.css">
 </head>
 
+<!--password Protect-->
+
+<body>
+  <script>
+     var password = "2023";
+     (function passcodeprotect() {
+        var passcode = prompt("Enter PassCode");
+        while (passcode !== password) {
+           alert("Incorrect PassCode");
+           return passcodeprotect();
+        }
+     }());
+     alert('Welcome To Beauty Through The Lens');
+  </script>
+</body>
+
+<!--password Protect-->
+
 <!--navbar-->
 <nav>
   <script id="replace_with_navbar" src="./nav/nav.js"></script>
